@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Umair Ali | Modern Web Developer & UI/UX Designer</title>
+  
+  <!-- Modern Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>emailjs.init('NL9BuXiXpTPu3wMgr');</script>
+  <link rel="shortcut icon" href="Assets/umLogo.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <!-- Ambient Cursor Glow Effect -->
+  <div class="cursorGlow" id="cursorGlow"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="navContainer">
+      <a class="navLogo" href="#home">
+        <span class="logoText">Umair Ali</span>
+        <span class="logoDot"></span>
+      </a>
+      <ul class="navLinks" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="navActions">
+        <a href="#contact" class="btnNav">Hire Me</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="heroSection" id="home">
+    <!-- Dynamic Canvas Particle Background -->
+    <canvas id="heroCanvas"></canvas>
+    <div class="heroGlowSphere heroGlowSphere1"></div>
+    <div class="heroGlowSphere heroGlowSphere2"></div>
+
+    <div class="heroContainer">
+      <div class="heroContent">
+        <div class="statusBadge">
+          <span class="pulse"></span>
+          <span>Available for Freelance & Internships</span>
+        </div>
+        
+        <p class="heroGreeting">Hello, World! I'm</p>
+        <h1 class="heroName">Umair <span class="textGradient">Ali</span></h1>
+        
+        <h2 class="heroTitle">
+          I build <span class="typingText" id="typingText"></span><span class="cursor">|</span>
+        </h2>
+        
+        <p class="heroDesc">
+          Computer Science Student at <strong>DHA Suffa University</strong>. I craft high-performance, visually stunning web applications and intuitive UI/UX design systems.
+        </p>
+
+        <div class="heroButtons">
+          <a href="#projects" class="btnPrimary">
+            <span>Explore My Work</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#contact" class="btnOutline">
+            <span>Let's Connect</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+          </a>
+        </div>
+
+
+
+        <div class="heroSocials">
+          <span class="socialsLabel">Follow Me:</span>
+          <a href="https://linkedin.com/in/umairalimalik78" target="_blank" class="socialIcon" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.25V10.9H6.46M7.86 6.74a1.72 1.72 0 1 0 0 3.44 1.72 1.72 0 0 0 0-3.44Z"/></svg>
+          </a>
+          <a href="https://github.com/umairalimalik78" target="_blank" class="socialIcon" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg>
+          </a>
+          <a href="mailto:umairalimalik78@gmail.com" class="socialIcon" aria-label="Email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Modern Hero Image Frame & Floating Badges -->
+      <div class="heroImageSide">
+        <div class="heroFrameContainer" id="heroFrameContainer">
+          
+          <!-- Floating Feature Badges -->
+          <div class="floatingBadge badgeTopLeft">
+            <span class="badgeIcon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+            </span>
+            <div class="badgeText">
+              <strong>UI/UX Specialist</strong>
+              <small>Figma & Wireframing</small>
+            </div>
+          </div>
+
+          <div class="floatingBadge badgeBottomRight">
+            <span class="badgeIcon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </span>
+            <div class="badgeText">
+              <strong>Frontend Developer</strong>
+              <small>HTML • CSS • JavaScript</small>
+            </div>
+          </div>
+
+          <!-- Glass Portrait Card -->
+          <div class="heroAvatarCard">
+            <div class="cardGlowBackdrop"></div>
+            <div class="avatarRing"></div>
+            <div class="avatarImageWrapper">
+              <img src="Assets/umairalimalik78.jpg" alt="Umair Ali - Web Developer & UI/UX Designer" class="avatarImage">
+            </div>
+            <div class="avatarCardFooter">
+              <span class="cardLocationTag">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>
+                Karachi, Pakistan
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="aboutSection" id="about">
+    <div class="container">
+      <div class="sectionHeader">
+        <span class="sectionBadge">Get To Know Me</span>
+        <h2 class="sectionTitle">About Me</h2>
+        <div class="sectionLine"></div>
+      </div>
+
+      <div class="aboutGrid">
+        <div class="aboutText">
+          <h3 class="aboutHeadline">Driven by Curiosity, Focused on Design & Clean Code.</h3>
+          <p>
+            I'm a <strong>Computer Science student</strong> at DHA Suffa University (Batch 2027) maintaining a <strong>3.3 CGPA</strong>. I bridge the gap between human-centered UI/UX design and clean, robust frontend engineering.
+          </p>
+          <p>
+            Over the past year, I've designed and engineered dynamic websites, dashboards, and mobile apps — ensuring high aesthetics without sacrificing usability. I am also a proud <strong>TCF Alumni</strong>, which instilled discipline, resilience, and attention to detail.
+          </p>
+          <div class="achievementHighlight">
+            <div class="achievementIcon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2z"/></svg>
+            </div>
+            <div>
+              <strong>Top Performer at Saylani Mass IT Training (SMIT)</strong>
+              <p>Achieved the highest score in my batch on a web development quiz during the training program.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="aboutCards">
+          <div class="aboutCard">
+            <div class="cardIconWrapper">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <h4>Education</h4>
+            <p>BS Computer Science<br />DHA Suffa University<br /><span>2023 - 2027</span></p>
+          </div>
+
+          <div class="aboutCard">
+            <div class="cardIconWrapper">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><polyline points="17 11 19 13 23 9"/></svg>
+            </div>
+            <h4>Current Role</h4>
+            <p>Freelance UI/UX Designer &<br />Web Dev Intern<br /><span>Oct 2024 - Present</span></p>
+          </div>
+
+          <div class="aboutCard">
+            <div class="cardIconWrapper">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h4>Base Location</h4>
+            <p>Karachi, Sindh<br />Pakistan<br /><span>Open to Remote</span></p>
+          </div>
+
+          <div class="aboutCard">
+            <div class="cardIconWrapper">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            </div>
+            <h4>Academics</h4>
+            <p>CGPA: 3.3 / 4.0<br />Inter: Grade A (79.4%)<br /><span>Matric: Grade A</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="skillsSection" id="skills">
+    <div class="container">
+      <div class="sectionHeader">
+        <span class="sectionBadge">My Superpowers</span>
+        <h2 class="sectionTitle">Skills & Expertise</h2>
+        <div class="sectionLine"></div>
+      </div>
+
+      <div class="skillsGrid">
+
+        <!-- Skill Box 1: Frontend -->
+        <div class="skillCategory">
+          <div class="skillCategoryHeader">
+            <div class="categoryIcon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3>Frontend Development</h3>
+          </div>
+          <div class="skillBars">
+            <div class="skillBar">
+              <div class="skillInfo"><span>HTML5 / Semantic Web</span><span>85%</span></div>
+              <div class="skillTrack"><div class="skillFill" data-width="85"></div></div>
+            </div>
+            <div class="skillBar">
+              <div class="skillInfo"><span>CSS3 / Flexbox & Grid</span><span>80%</span></div>
+              <div class="skillTrack"><div class="skillFill" data-width="80"></div></div>
+            </div>
+            <div class="skillBar">
+              <div class="skillInfo"><span>JavaScript (ES6+)</span><span>65%</span></div>
+              <div class="skillTrack"><div class="skillFill" data-width="65"></div></div>
+            </div>
+            <div class="skillBar">
+              <div class="skillInfo"><span>Bootstrap & Frameworks</span><span>70%</span></div>
+              <div class="skillTrack"><div class="skillFill" data-width="70"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill Box 2: UI/UX Design -->
+        <div class="skillCategory">
+          <div class="skillCategoryHeader">
+            <div class="categoryIcon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+            </div>
+            <h3>UI/UX Design</h3>
+          </div>
+          <div class="skillBars">
+            <div class="skillBar">
+              <div class="skillInfo"><span>Figma & Design Systems</span><span>85%</span></div>
+              <div class="skillTrack"><div class="skillFill" data-width="85"></div></div>
+            </div>
+            <div class="skillBar">
+              <div class="skillInfo"><span>User Research & Wireframing</span><span>80%</span></div>
+              <div class="skillTrack"><div class="skillFill" data-width="80"></div></div>
+            </div>
+            <div class="skillBar">
+              <div class="skillInfo"><span>High-Fidelity Prototyping</span><span>75%</span></div>
+              <div class="skillTrack"><div class="skillFill" data-width="75"></div></div>
+            </div>
+            <div class="skillBar">
+              <div class="skillInfo"><span>Mobile App Interface Design</span><span>75%</span></div>
+              <div class="skillTrack"><div class="skillFill" data-width="75"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill Box 3: Programming -->
+        <div class="skillCategory">
+          <div class="skillCategoryHeader">
+            <div class="categoryIcon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3>Programming Languages</h3>
+          </div>
+          <div class="skillBars">
+            <div class="skillBar">
+              <div class="skillInfo"><span>C Programming</span><span>70%</span></div>
+              <div class="skillTrack"><div class="skillFill" data-width="70"></div></div>
+            </div>
+            <div class="skillBar">
+              <div class="skillInfo"><span>C++ / OOP</span><span>60%</span></div>
+              <div class="skillTrack"><div class="skillFill" data-width="60"></div></div>
+            </div>
+            <div class="skillBar">
+              <div class="skillInfo"><span>C# & .NET Basics</span><span>65%</span></div>
+              <div class="skillTrack"><div class="skillFill" data-width="65"></div></div>
+            </div>
+            <div class="skillBar">
+              <div class="skillInfo"><span>MySQL & Databases</span><span>60%</span></div>
+              <div class="skillTrack"><div class="skillFill" data-width="60"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill Box 4: Tools & Concepts -->
+        <div class="skillCategory">
+          <div class="skillCategoryHeader">
+            <div class="categoryIcon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3>Tools & Methodologies</h3>
+          </div>
+          <div class="skillTags">
+            <span class="skillTag">Git & GitHub</span>
+            <span class="skillTag">Figma</span>
+            <span class="skillTag">Canva</span>
+            <span class="skillTag">Netlify Deployment</span>
+            <span class="skillTag">Responsive Design</span>
+            <span class="skillTag">Typography</span>
+            <span class="skillTag">Color Systems</span>
+            <span class="skillTag">VS Code</span>
+            <span class="skillTag">MS Office Suite</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="projectsSection" id="projects">
+    <div class="container">
+      <div class="sectionHeader">
+        <span class="sectionBadge">Featured Works</span>
+        <h2 class="sectionTitle">Selected Projects</h2>
+        <div class="sectionLine"></div>
+      </div>
+
+      <div class="filterButtons">
+        <button class="filterBtn active" data-filter="all">All Projects</button>
+        <button class="filterBtn" data-filter="uiux">UI/UX Design</button>
+        <button class="filterBtn" data-filter="web">Web Development</button>
+      </div>
+
+      <div class="projectsGrid" id="projectsGrid">
+
+        <!-- Project 1 -->
+        <div class="projectCard" data-category="uiux" onclick="window.open('https://www.figma.com/design/o3e12my4KLGc1KL5uUyPhZ/Aamir-s-Study-Bee?t=AtBnT182zmd9Jbfj-0', '_blank')">
+          <div class="projectTop">
+            <span class="projectLogo"><img src="Assets/studyBeeLogo.png" alt="Study Bee"></span>
+            <span class="externalLinkIcon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
+          </div>
+          <div class="projectBody">
+            <span class="projectTag uiuxTag">UI/UX Design</span>
+            <h3>Study Bee</h3>
+            <p>Smart study platform design featuring custom student dashboards, peer-matching UI, tutor bookings, and encrypted chat interface.</p>
+            <div class="projectTechList">
+              <span>Figma</span><span>Wireframing</span><span>Responsive UI</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="projectCard" data-category="uiux" onclick="window.open('https://www.figma.com/design/Xu6XEMTVpLp09QP4D1Ea65/Ludra?node-id=0-1&p=f&t=AtBnT182zmd9Jbfj-0', '_blank')">
+          <div class="projectTop">
+            <span class="projectLogo"><img src="Assets/ludraLogo.png" alt="Ludra"></span>
+            <span class="externalLinkIcon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
+          </div>
+          <div class="projectBody">
+            <span class="projectTag uiuxTag">UI/UX Design</span>
+            <h3>Ludra App</h3>
+            <p>Mobile lucky-draw e-commerce mobile application design. Complete high-fidelity design system and user interaction flow.</p>
+            <div class="projectTechList">
+              <span>Figma</span><span>Mobile UI</span><span>Prototyping</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="projectCard" data-category="uiux" onclick="window.open('https://www.figma.com/design/n40RscKpCxqRbGpq9VlTY9/Pycobytes?node-id=0-1&p=f&t=AtBnT182zmd9Jbfj-0', '_blank')">
+          <div class="projectTop">
+            <span class="projectLogo"><img src="Assets/pychobytesLogo.png" alt="Pycobytes"></span>
+            <span class="externalLinkIcon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
+          </div>
+          <div class="projectBody">
+            <span class="projectTag uiuxTag">UI/UX Design</span>
+            <h3>Pycobytes Website</h3>
+            <p>Startup website landing page UI design featuring modern dark theme, service offerings, and streamlined branding.</p>
+            <div class="projectTechList">
+              <span>Figma</span><span>Branding</span><span>Web UI</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="projectCard" data-category="web" onclick="window.open('https://linked-in-clone-umair.netlify.app/', '_blank')">
+          <div class="projectTop">
+            <span class="projectLogo"><img src="Assets/linkedinLogo.png" alt="LinkedIn Clone"></span>
+            <span class="externalLinkIcon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
+          </div>
+          <div class="projectBody">
+            <span class="projectTag webTag">Web Dev</span>
+            <h3>LinkedIn Platform Clone</h3>
+            <p>Comprehensive replica of LinkedIn featuring feed layout, user profiles, authentication templates, and responsive design.</p>
+            <div class="projectTechList">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="projectCard" data-category="web" onclick="window.open('https://amazon-clone-umair.netlify.app/', '_blank')">
+          <div class="projectTop">
+            <span class="projectLogo"><img src="Assets/amazonLogo.png" alt="Amazon Clone"></span>
+            <span class="externalLinkIcon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
+          </div>
+          <div class="projectBody">
+            <span class="projectTag webTag">Web Dev</span>
+            <h3>Amazon E-Commerce Clone</h3>
+            <p>E-commerce homepage application with product grid sections, carousel banners, and responsive navigation header.</p>
+            <div class="projectTechList">
+              <span>HTML5</span><span>CSS3</span><span>JS Flexbox</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="projectCard" data-category="web" onclick="window.open('https://applle-website-clone.netlify.app/', '_blank')">
+          <div class="projectTop">
+            <span class="projectLogo"><img src="Assets/appleLogo.png" alt="Apple Clone"></span>
+            <span class="externalLinkIcon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
+          </div>
+          <div class="projectBody">
+            <span class="projectTag webTag">Web Dev</span>
+            <h3>Apple Official Landing Clone</h3>
+            <p>Ultra-minimal, clean Apple website showcase with refined typography and responsive section layouts.</p>
+            <div class="projectTechList">
+              <span>HTML5</span><span>CSS3</span><span>Clean Layout</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="projectCard" data-category="web" onclick="window.open('https://upwork-clone-umair.netlify.app/', '_blank')">
+          <div class="projectTop">
+            <span class="projectLogo"><img src="Assets/upworkLogo.png" alt="Upwork Clone"></span>
+            <span class="externalLinkIcon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
+          </div>
+          <div class="projectBody">
+            <span class="projectTag webTag">Web Dev</span>
+            <h3>Upwork Marketplace Clone</h3>
+            <p>Freelance talent marketplace landing page clone replicating Upwork's search, talent categories, and footer links.</p>
+            <div class="projectTechList">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 8 -->
+        <div class="projectCard" data-category="web" onclick="window.open('https://fb-clone-umair.netlify.app/dashboard/dashboard', '_blank')">
+          <div class="projectTop">
+            <span class="projectLogo"><img src="Assets/facebookLogo.png" alt="Facebook Clone"></span>
+            <span class="externalLinkIcon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
+          </div>
+          <div class="projectBody">
+            <span class="projectTag webTag">Web Dev</span>
+            <h3>Facebook Web App Clone</h3>
+            <p>Social dashboard interface with user newsfeed styling, navigation header, and login/register components.</p>
+            <div class="projectTechList">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 9 -->
+        <div class="projectCard" data-category="web" onclick="window.open('https://umairalimalik.netlify.app/', '_blank')">
+          <div class="projectTop">
+            <span class="projectLogo"><img src="Assets/umLogo.png" alt="Personal Portfolio"></span>
+            <span class="externalLinkIcon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
+          </div>
+          <div class="projectBody">
+            <span class="projectTag webTag">Web Dev</span>
+            <h3>Personal Portfolio V1</h3>
+            <p>Original static portfolio website built to showcase earlier web projects and design progression.</p>
+            <div class="projectTechList">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section class="certSection" id="certifications">
+    <div class="container">
+      <div class="sectionHeader">
+        <span class="sectionBadge">Verified Credentials</span>
+        <h2 class="sectionTitle">Certifications & Training</h2>
+        <div class="sectionLine"></div>
+      </div>
+
+      <div class="certGrid">
+
+        <div class="certCard">
+          <div class="certHeader">
+            <div class="certBadgeIcon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            </div>
+            <span class="certStatus">Verified</span>
+          </div>
+          <div class="certInfo">
+            <h3>Modern Web Application Development</h3>
+            <p class="certOrg">Saylani Mass I.T Training (SMIT)</p>
+            <p class="certDate">Issued Dec 2025 • Top Batch Scorer (80%)</p>
+            <div class="certSkills">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="certCard">
+          <div class="certHeader">
+            <div class="certBadgeIcon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <span class="certStatus">Verified</span>
+          </div>
+          <div class="certInfo">
+            <h3>Web Development — HTML, CSS, JavaScript</h3>
+            <p class="certOrg">10Pearls University</p>
+            <p class="certDate">Issued Sep 2023</p>
+            <div class="certSkills">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Frontend</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="certCard">
+          <div class="certHeader">
+            <div class="certBadgeIcon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+            </div>
+            <span class="certStatus">Completed</span>
+          </div>
+          <div class="certInfo">
+            <h3>UI/UX Designing with Figma</h3>
+            <p class="certOrg">Self-Paced Specialization</p>
+            <p class="certDate">Completed 2024</p>
+            <div class="certSkills">
+              <span>Figma</span><span>Wireframing</span><span>Prototyping</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="certCard">
+          <div class="certHeader">
+            <div class="certBadgeIcon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <span class="certStatus">Verified</span>
+          </div>
+          <div class="certInfo">
+            <h3>Diploma in Information Technology (DIT)</h3>
+            <p class="certOrg">Lambda Consulting Group</p>
+            <p class="certDate">Issued Oct 2022</p>
+            <div class="certSkills">
+              <span>MS Office</span><span>Database Basics</span><span>IT Fundamentals</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contactSection" id="contact">
+    <div class="container">
+      <div class="sectionHeader">
+        <span class="sectionBadge">Get In Touch</span>
+        <h2 class="sectionTitle">Let's Work Together</h2>
+        <div class="sectionLine"></div>
+      </div>
+
+      <p class="contactSubtitle">Have a project in mind, a freelance inquiry, or just want to chat? Drop me a message below!</p>
+      
+      <div class="contactGrid">
+
+        <div class="contactInfo">
+          <div class="contactItem">
+            <div class="contactIcon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:umairalimalik78@gmail.com">umairalimalik78@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contactItem">
+            <div class="contactIcon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              <a href="tel:+923043644816">+92 304 3644816</a>
+            </div>
+          </div>
+
+          <div class="contactItem">
+            <div class="contactIcon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </div>
+            <div>
+              <h4>LinkedIn</h4>
+              <a href="https://linkedin.com/in/umairalimalik78" target="_blank">in/umairalimalik78</a>
+            </div>
+          </div>
+
+          <div class="contactItem">
+            <div class="contactIcon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h4>Location</h4>
+              <p>Karachi, Sindh, Pakistan</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contactForm" id="contactForm">
+          <div class="formGroup">
+            <label for="userName">Your Name</label>
+            <input type="text" id="userName" placeholder="e.g. John Doe" required />
+          </div>
+          <div class="formGroup">
+            <label for="userEmail">Your Email</label>
+            <input type="email" id="userEmail" placeholder="e.g. john@example.com" required />
+          </div>
+          <div class="formGroup">
+            <label for="userSubject">Subject</label>
+            <input type="text" id="userSubject" placeholder="Project / Collaboration / Hiring" />
+          </div>
+          <div class="formGroup">
+            <label for="userMessage">Message</label>
+            <textarea id="userMessage" rows="5" placeholder="Tell me about your project goals..." required></textarea>
+          </div>
+          <button type="submit" class="btnPrimary submitBtn">
+            <span>Send Message</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+          <p class="formSuccess" id="formSuccess">✅ Message sent successfully! I'll get back to you shortly.</p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footerContainer">
+      <div class="footerBrand">
+        <a href="#home" class="navLogo">Umair<span class="logoDot"></span></a>
+        <p>Crafting modern web experiences & intuitive digital products.</p>
+      </div>
+      <div class="footerLinks">
+        <a href="mailto:umairalimalik78@gmail.com">Email</a>
+        <a href="https://linkedin.com/in/umairalimalik78" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Umairalimalik78" target="_blank">GitHub</a>
+        <a href="#home" class="scrollTopBtn">Back to Top ↑</a>
+      </div>
+    </div>
+    <div class="footerCopyright">
+      <p>© 2026 Umair Ali. Built with HTML, CSS & JS.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
