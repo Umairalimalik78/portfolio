@@ -6,7 +6,7 @@ A modern and responsive personal portfolio website built with pure HTML, CSS and
 
 ## 🔗 Live Demo
 
-🌍 https://umairalimalik78.netlify.app/
+🌍 https://umairalimalik78.github.io/portfolio/
 
 ---
 
