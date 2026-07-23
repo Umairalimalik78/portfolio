@@ -1,166 +1,191 @@
-﻿# 🌐 Umair Ali — Personal Portfolio Website (V2)
+﻿<div align="center">
 
-A **modern, animated, and fully responsive** personal portfolio website built with pure HTML, CSS, and JavaScript. Designed to make a strong first impression with glassmorphism aesthetics, dynamic particle animations, and a clean professional layout — showcasing skills, projects, certifications, and more.
+  <!-- Animated Typing SVG -->
+  <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=32&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Umair+Ali+%F0%9F%91%8B;Frontend+Developer+%26+UI%2FUX+Designer;Building+Beautiful+Web+Experiences" alt="Typing SVG" />
 
----
+  <br/>
 
-## 🔗 Live Demo
+  <p>
+    <a href="https://umairalimalik78.netlify.app/" target="_blank">
+      <img src="https://img.shields.io/badge/🌐 Portfolio-Live-A78BFA?style=for-the-badge&labelColor=1a1a2e" />
+    </a>
+    &nbsp;
+    <a href="https://linkedin.com/in/umairalimalik78" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-umairalimalik78-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    </a>
+    &nbsp;
+    <a href="mailto:umairalimalik78@gmail.com">
+      <img src="https://img.shields.io/badge/Gmail-umairalimalik78-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+    </a>
+    &nbsp;
+    <img src="https://komarev.com/ghpvc/?username=Umairalimalik78&style=for-the-badge&color=A78BFA&label=Profile+Views" />
+  </p>
 
-🌍 [https://umairalimalik78.netlify.app/](https://umairalimalik78.netlify.app/)
-
----
-
-## ✨ Features
-
-- 🎆 **Animated Hero Section** — Dynamic canvas particle background, ambient cursor glow, and a typewriter effect
-- 🧲 **Floating UI Badges** — Glassmorphism-style floating badges in the hero image frame
-- 👤 **About Me** — Personal summary, education, current role, location, and academic highlights
-- 🛠️ **Skills & Expertise** — Animated skill bars across Frontend, UI/UX, Programming Languages, and Tools
-- 💼 **Projects Gallery** — Filterable project cards (All / UI/UX / Web Dev) with live links
-- 🏆 **Certifications** — Verified credentials from SMIT, 10Pearls University, and more
-- 📬 **Contact Form** — Functional contact form powered by **EmailJS** with success feedback
-- 📱 **Fully Responsive** — Optimized for all screen sizes with a hamburger mobile menu
-- 🌙 **Dark Theme UI** — Premium dark design with gradient accents and micro-animations
-- 🖱️ **Ambient Cursor Glow** — Subtle radial glow effect that follows the cursor
-
----
-
-## 🛠️ Built With
-
-| Technology       | Purpose                                                          |
-|------------------|------------------------------------------------------------------|
-| **HTML5**        | Page structure & semantic markup                                 |
-| **CSS3**         | Styling, animations, glassmorphism & responsive layout           |
-| **JavaScript**   | Interactivity, canvas particles, typewriter & scroll effects     |
-| **EmailJS**      | Functional contact form email delivery                           |
-| **Google Fonts** | Typography — Outfit & Plus Jakarta Sans                          |
-| **Netlify**      | Deployment & hosting                                             |
+</div>
 
 ---
 
-## 📁 Project Structure
+## 🧑‍💻 About Me
 
-```
-portfolio/
-│
-├── index.html        # Main HTML file (all 6 sections)
-├── style.css         # Full stylesheet (dark theme, animations, responsiveness)
-├── script.js         # JavaScript (particles, typewriter, scroll effects, EmailJS)
-└── Assets/           # Images, logos, and media assets
-    ├── umairalimalik78.jpg   # Profile photo
-    ├── umLogo.png            # Favicon / portfolio logo
-    ├── studyBeeLogo.png      # Study Bee project logo
-    ├── ludraLogo.png         # Ludra project logo
-    ├── pychobytesLogo.png    # Pycobytes project logo
-    ├── linkedinLogo.png      # LinkedIn clone logo
-    ├── amazonLogo.png        # Amazon clone logo
-    ├── appleLogo.png         # Apple clone logo
-    ├── upworkLogo.png        # Upwork clone logo
-    └── facebookLogo.png      # Facebook clone logo
-```
+> *"I bridge the gap between design intuition and clean, robust frontend engineering."*
+
+I'm a **Frontend Developer & UI/UX Designer** based in **Karachi, Pakistan** 🇵🇰 — currently pursuing a **BS in Computer Science** at **DHA Suffa University** (Batch 2027, CGPA: 3.3).
+
+Over the past year I've designed and shipped dynamic websites, dashboards, and mobile app interfaces — obsessing over aesthetics without sacrificing usability. I'm a proud **TCF Alumni** and a **Top Batch Scorer** at Saylani Mass IT Training (SMIT).
+
+- 🔭 Currently working on: **Freelance UI/UX & Web projects**
+- 🌱 Learning: **React.js & Advanced JavaScript**
+- 💬 Ask me about: **HTML/CSS animations, Figma design systems, responsive layouts**
+- ⚡ Available for: **Freelance, Internships & Collaborations**
 
 ---
 
-## 📌 Sections
+## 🛠️ Tech Stack
 
-| Section            | Description                                                        |
-|--------------------|--------------------------------------------------------------------|
-| **Hero**           | Name, animated role titles, social links & avatar card             |
-| **About**          | Bio, education, current role, CGPA & achievement highlight         |
-| **Skills**         | Animated skill bars — Frontend, UI/UX, Programming & Tools         |
-| **Projects**       | 9 filterable project cards with live Figma / web links             |
-| **Certifications** | 4 verified credentials from recognized institutions                |
-| **Contact**        | Email form (EmailJS), phone, LinkedIn & location                   |
+### 🎨 Frontend & Design
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
+
+### 💻 Programming Languages
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+### ⚙️ Tools & Platforms
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![EmailJS](https://img.shields.io/badge/EmailJS-FF6B35?style=for-the-badge&logoColor=white)
 
 ---
 
-## 💼 Featured Projects
+## 🚀 Featured Projects
 
 ### 🎨 UI/UX Design
 
-| Project       | Description                                                            | Link |
-|---------------|------------------------------------------------------------------------|------|
-| **Study Bee** | Smart study platform with dashboards, peer-matching & chat UI          | [Figma ↗](https://www.figma.com/design/o3e12my4KLGc1KL5uUyPhZ/) |
-| **Ludra App** | Mobile lucky-draw e-commerce app with full high-fidelity design system | [Figma ↗](https://www.figma.com/design/Xu6XEMTVpLp09QP4D1Ea65/) |
-| **Pycobytes** | Startup landing page UI with modern dark theme & streamlined branding  | [Figma ↗](https://www.figma.com/design/n40RscKpCxqRbGpq9VlTY9/) |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📚 Study Bee</h3>
+      <p>Smart study platform UI featuring custom student dashboards, peer-matching, tutor bookings, and an encrypted chat interface. Full design system built in Figma.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Figma-Design-F24E1E?style=flat-square&logo=figma&logoColor=white" />
+        <img src="https://img.shields.io/badge/Wireframing-blue?style=flat-square" />
+        <img src="https://img.shields.io/badge/Responsive UI-purple?style=flat-square" />
+      </p>
+      <a href="https://www.figma.com/design/o3e12my4KLGc1KL5uUyPhZ/">🔗 View on Figma</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎰 Ludra App</h3>
+      <p>Mobile lucky-draw e-commerce app with a complete high-fidelity design system and full user interaction flow. Covers onboarding, product listing, and checkout UX.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Figma-Design-F24E1E?style=flat-square&logo=figma&logoColor=white" />
+        <img src="https://img.shields.io/badge/Mobile UI-blue?style=flat-square" />
+        <img src="https://img.shields.io/badge/Prototyping-purple?style=flat-square" />
+      </p>
+      <a href="https://www.figma.com/design/Xu6XEMTVpLp09QP4D1Ea65/">🔗 View on Figma</a>
+    </td>
+  </tr>
+</table>
+
+---
 
 ### 🌐 Web Development
 
-| Project                     | Description                                                    | Live Demo |
-|-----------------------------|----------------------------------------------------------------|-----------|
-| **LinkedIn Platform Clone** | Feed layout, user profiles, auth templates & responsive design | [View ↗](https://linked-in-clone-umair.netlify.app/) |
-| **Amazon E-Commerce Clone** | Product grid, carousel banners & responsive nav header         | [View ↗](https://amazon-clone-umair.netlify.app/) |
-| **Apple Landing Clone**     | Ultra-minimal, clean Apple-style showcase with typography      | [View ↗](https://applle-website-clone.netlify.app/) |
-| **Upwork Marketplace Clone**| Freelance platform with search, talent categories & footer     | [View ↗](https://upwork-clone-umair.netlify.app/) |
-| **Facebook Web App Clone**  | Social dashboard with newsfeed, nav header & auth components   | [View ↗](https://fb-clone-umair.netlify.app/dashboard/dashboard) |
-| **Personal Portfolio V1**   | Original static portfolio showcasing earlier projects          | [View ↗](https://umairalimalik.netlify.app/) |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💼 LinkedIn Platform Clone</h3>
+      <p>Comprehensive LinkedIn replica featuring feed layout, user profiles, authentication templates, and a fully responsive navigation. Pixel-accurate recreation.</p>
+      <p>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+      </p>
+      <a href="https://linked-in-clone-umair.netlify.app/">🔗 Live Demo</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛍️ Amazon E-Commerce Clone</h3>
+      <p>E-commerce homepage with product grid sections, carousel banners, and a responsive navigation header. Faithful recreation of Amazon's storefront UI.</p>
+      <p>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+      </p>
+      <a href="https://amazon-clone-umair.netlify.app/">🔗 Live Demo</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📘 Facebook Web App Clone</h3>
+      <p>Social dashboard interface with a user newsfeed, navigation header, and login/register components. Includes a full dashboard route structure.</p>
+      <p>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+      </p>
+      <a href="https://fb-clone-umair.netlify.app/dashboard/dashboard">🔗 Live Demo</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🍎 Apple Landing Clone</h3>
+      <p>Ultra-minimal Apple website showcase built with refined typography, clean section layouts, and premium whitespace — faithful to Apple's design language.</p>
+      <p>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+        <img src="https://img.shields.io/badge/Clean Layout-gray?style=flat-square" />
+      </p>
+      <a href="https://applle-website-clone.netlify.app/">🔗 Live Demo</a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Umairalimalik78&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA" height="160" />
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Umairalimalik78&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA" height="160" />
+</div>
 
 ---
 
 ## 🏆 Certifications
 
-| Certificate                              | Issuer                    | Date     |
-|------------------------------------------|---------------------------|----------|
-| Modern Web Application Development       | Saylani Mass IT (SMIT)    | Dec 2025 |
-| Web Development — HTML, CSS, JavaScript  | 10Pearls University       | Sep 2023 |
-| UI/UX Designing with Figma               | Self-Paced Specialization | 2024     |
-| Diploma in Information Technology (DIT)  | Lambda Consulting Group   | Oct 2022 |
+| 🏅 Certificate | 🏫 Issuer | 📅 Date |
+|---|---|---|
+| Modern Web Application Development | Saylani Mass IT (SMIT) — *Top Batch Scorer (80%)* | Dec 2025 |
+| Web Development — HTML, CSS, JavaScript | 10Pearls University | Sep 2023 |
+| UI/UX Designing with Figma | Self-Paced Specialization | 2024 |
+| Diploma in Information Technology (DIT) | Lambda Consulting Group | Oct 2022 |
 
 ---
 
-## 🚀 Getting Started
+## 📬 Get In Touch
 
-### Run Locally
+<div align="center">
 
-1. **Clone the repository**
+| Platform | Link |
+|---|---|
+| 🌐 **Portfolio** | [umairalimalik78.netlify.app](https://umairalimalik78.netlify.app/) |
+| 💼 **LinkedIn** | [linkedin.com/in/umairalimalik78](https://linkedin.com/in/umairalimalik78) |
+| 🐙 **GitHub** | [github.com/Umairalimalik78](https://github.com/Umairalimalik78) |
+| 📧 **Email** | [umairalimalik78@gmail.com](mailto:umairalimalik78@gmail.com) |
+| 📞 **Phone** | +92 304 3644816 |
+| 📍 **Location** | Karachi, Pakistan — Open to Remote |
 
-```bash
-git clone https://github.com/Umairalimalik78/portfolio.git
-```
-
-2. **Navigate to the project folder**
-
-```bash
-cd portfolio
-```
-
-3. **Open `index.html` in your browser**
-
-Simply double-click `index.html` or open it with **Live Server** in VS Code.
-
-> ⚡ No build tools, frameworks, or package installations required — pure HTML, CSS & JS!
+</div>
 
 ---
 
-## 📧 Contact Form Setup (EmailJS)
-
-The contact form uses [EmailJS](https://www.emailjs.com/) for serverless email delivery. To use your own account:
-
-1. Create a free account at [emailjs.com](https://www.emailjs.com/)
-2. Set up a **Service** and an **Email Template**
-3. Replace the public key in `index.html`:
-
-```js
-emailjs.init('YOUR_PUBLIC_KEY');
-```
-
-4. Update the **Service ID** and **Template ID** inside `script.js`.
-
----
-
-## 👨‍💻 Author
-
-**Umair Ali**
-- 📍 Karachi, Pakistan
-- 🎓 BS Computer Science — DHA Suffa University (2023–2027) | CGPA: 3.3
-- 💼 Freelance UI/UX Designer & Frontend Developer | Available for Internships
-
-| Platform     | Link |
-|--------------|------|
-| **GitHub**   | [@Umairalimalik78](https://github.com/Umairalimalik78) |
-| **LinkedIn** | [umairalimalik78](https://linkedin.com/in/umairalimalik78) |
-| **Email**    | [umairalimalik78@gmail.com](mailto:umairalimalik78@gmail.com) |
-
----
-
-<p align="center">Made with ❤️ by Umair Ali &nbsp;•&nbsp; © 2026</p>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=A78BFA&height=80&section=footer" />
+  <p>Made with ❤️ by <strong>Umair Ali</strong> &nbsp;•&nbsp; © 2026</p>
+</div>
